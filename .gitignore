@@ -1,0 +1,12 @@
+node_modules/
+server/node_modules/
+.storybook/addons/node_modules
+npm-debug.log
+.idea
+.vscode
+.DS_Store
+app/test/coverage/
+coverage
+storybook-static
+build
+§
