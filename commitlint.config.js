@@ -21,6 +21,7 @@ module.exports = {
             rules: {
                 "jira-ticket": ({ ticket }) => {
                     const pattern = new RegExp('[A-Za-z]{2,}-\\d+');
+                    console.log(ticket, pattern.test(ticket))
                     return [
                         pattern.test(ticket),
                         'Your ticket must be in format FTP-000'
