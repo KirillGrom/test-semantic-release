@@ -33,6 +33,7 @@ module.exports = {
                     const { emoji } = parsed;
                     console.log(!Object.keys(emojisObject).includes(emoji))
                     if (emoji && !Object.keys(emojisObject).includes(emoji)) {
+                        console.log(!Object.keys(emojisObject).includes(emoji))
                         return [
                             false,
                             `emoji must be one of:
