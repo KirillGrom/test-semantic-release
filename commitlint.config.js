@@ -21,7 +21,7 @@ module.exports = {
             rules: {
                 "header-match-team-pattern": (parsed) => {
                     const { emoji, ticket, subject } = parsed;
-                    if (emoji === null && ticket === null && subject === null) {
+                    if (!emoji && !ticket && !subject) {
                         return [
                             false,
                             "Header must be in format '✅ [FPT-4605] some text'",
