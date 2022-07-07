@@ -19,6 +19,13 @@ module.exports = {
     plugins: [
         {
             rules: {
+                "jira-ticket": ({ ticket }) => {
+                    const pattern = new RegExp('[A-Za-z]{2,}-\\d+');
+                    return [
+                        pattern.test(ticket),
+                        'Your ticket must be in format FTP-000'
+                    ]
+                },
                 "header-match-team-pattern": (parsed) => {
                     const { emoji, ticket, subject } = parsed;
                     console.log(emoji, ticket, subject)
