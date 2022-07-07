@@ -21,6 +21,7 @@ module.exports = {
             rules: {
                 "header-match-team-pattern": (parsed) => {
                     const { emoji, ticket, subject } = parsed;
+                    console.log(emoji, ticket, subject)
                     if (!emoji && !ticket && !subject) {
                         return [
                             false,
