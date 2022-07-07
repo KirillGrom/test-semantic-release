@@ -21,7 +21,7 @@ module.exports = {
             rules: {
                 "header-match-team-pattern": (parsed) => {
                     const { emoji, ticket, subject } = parsed;
-                    if (emoji && ticket && subject) {
+                    if (emoji === null && ticket === null && subject === null) {
                         return [
                             false,
                             "Header must be in format '✅ [FPT-4605] some text'",
@@ -31,7 +31,6 @@ module.exports = {
                 },
                 "explained-emoji-enum": (parsed, _when, emojisObject) => {
                     const { emoji } = parsed;
-                    console.log(emoji)
                     if (emoji && !Object.keys(emojisObject).includes(emoji)) {
                         return [
                             false,
