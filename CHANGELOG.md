@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.0...v1.0.1) (2022-07-07)
+
+
+### Bug Fixes
+
+* **fpt-44:** add preset angular ([40ee609](https://github.com/KirillGrom/test-semantic-release/commit/40ee609858083a1e8782f7ea5efaf2279ea7be2b))
+
 # 1.0.0 (2022-07-07)
 
 
