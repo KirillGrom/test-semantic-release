@@ -28,7 +28,6 @@ module.exports = {
                 },
                 "header-match-team-pattern": (parsed) => {
                     const { emoji, ticket, subject } = parsed;
-                    console.log(emoji, ticket, subject)
                     if (!emoji && !ticket && !subject) {
                         return [
                             false,
@@ -67,5 +66,6 @@ module.exports = {
                 "📝": "Documentation update",
             },
         ],
+        "jira-ticket": [2, "always"]
     },
 };
