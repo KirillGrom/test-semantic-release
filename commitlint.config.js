@@ -31,7 +31,7 @@ module.exports = {
                 },
                 "explained-emoji-enum": (parsed, _when, emojisObject) => {
                     const { emoji } = parsed;
-                    debugger
+                    console.log(emojisObject)
                     if (emoji && !Object.keys(emojisObject).includes(emoji)) {
                         return [
                             false,
