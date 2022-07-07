@@ -7,12 +7,6 @@ module.exports = {
         'scope-empty': [2, 'never'],
         'jira-ticket':[2,'always'],
     },
-    parserPreset: {
-        parserOpts: {
-            headerPattern: /^(\w+\[.*?\]: )(.+)/,
-            headerCorrespondence: ["type", "scope", "subject"],
-        },
-    },
     plugins: [
         {
             rules: {

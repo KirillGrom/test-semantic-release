@@ -9,7 +9,6 @@
   "description": "",
   "version": "1.0.0",
   "main": "commitlint.config.js",
-  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
@@ -23,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/KirillGrom/test-semantic-release/issues"
   },
-  "homepage": "https://github.com/KirillGrom/test-semantic-release#readme"
+  "homepage": "https://github.com/KirillGrom/test-semantic-release#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1"
+  }
 }
