@@ -1,8 +1,3 @@
-const matchAnyEmojiWithSpaceAfter =
-	/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])\s/;
-const matchOptionalTicketNumberWithSpaceAfter = /(?:\[(.*)\]\s)?/;
-const subjectThatDontStartWithBracket = /([^\[].+)/;
-
 module.exports = {
 	parserPreset: {
 		parserOpts: {
@@ -34,8 +29,11 @@ module.exports = {
 
 	],
 	rules: {
-		"type-enum":[1,
-			'always',['Feat', 'Fix', 'Refactor', 'Test']],
+		"type-enum":[
+			1,
+			'always',
+			['Feat', 'Fix', 'Refactor', 'Test']
+		],
 		"header-match-team-pattern": [2,"always"],
 		"jira-ticket": [2, "always"]
 	},
