@@ -34,7 +34,8 @@ module.exports = {
 
 	],
 	rules: {
-
+		"type-enum":[1,
+			'always',['Feat', 'Fix', 'Refactor', 'Test']],
 		"header-match-team-pattern": [2,"always"],
 		"jira-ticket": [2, "always"]
 	},
