@@ -6,14 +6,8 @@ const subjectThatDontStartWithBracket = /([^\[].+)/;
 module.exports = {
 	parserPreset: {
 		parserOpts: {
-			headerPattern: new RegExp(
-				"^" +
-				matchAnyEmojiWithSpaceAfter.source +
-				matchOptionalTicketNumberWithSpaceAfter.source +
-				subjectThatDontStartWithBracket.source +
-				"$"
-			),
-			headerCorrespondence: ["emoji", "ticket", "subject"],
+			headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
+			headerCorrespondence: ["type", "ticket", "subject"],
 		},
 	},
 	plugins: [
@@ -26,24 +20,12 @@ module.exports = {
 						'Your ticket must be in format FPT-000'
 					]
 				},
-				"header-match-team-pattern": ({ emoji, ticket, subject }) => {
-					if (!emoji && !ticket && !subject) {
+				"header-match-team-pattern": ({ type, ticket, subject }) => {
+					console.log(type, ticket, subject)
+					if (!type && !ticket && !subject) {
 						return [
 							false,
 							"Header must be in format '✅ [FPT-4605] some text'",
-						];
-					}
-					return [true, ""];
-				},
-				"explained-emoji-enum": (parsed, _when, emojisObject) => {
-					const { emoji } = parsed;
-					if (emoji && !Object.keys(emojisObject).includes(emoji)) {
-						return [
-							false,
-							`emoji must be one of:
-                            ${Object.keys(emojisObject)
-								.map((emojiType) => `${emojiType} - ${emojisObject[emojiType]}`)
-								.join("\n")}`,
 						];
 					}
 					return [true, ""];
@@ -53,19 +35,6 @@ module.exports = {
 
 	],
 	rules: {
-		"header-match-team-pattern": [2, "always"],
-		"explained-emoji-enum": [
-			2,
-			"always",
-			{
-				"⭐️": "New feature",
-				"🛠️": "Bug fix",
-				"🔥": "Hotfix",
-				"♻️": "Refactor",
-				"📝": "Documentation update",
-				"❗": "Breaking changes",
-			},
-		],
 		"jira-ticket": [2, "always"]
 	},
 };
