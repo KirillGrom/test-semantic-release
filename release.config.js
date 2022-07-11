@@ -8,9 +8,9 @@ module.exports = {
         {"type": "Feat", "release": "minor"},
       ],
       parserOpts: {
-          headerPattern: /^(feat|fix|perf|test|BREAKING CHANGE):.*\[REF-(\d{3,}|N\\A)\] \S+ \S+ \S+ \S+ \S+/,
-          headerCorrespondence: ['type', 'scope', 'subject'],
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+        headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
+        headerCorrespondence: ["type", "ticket", "subject"],
+        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
       },
     }],
     [

@@ -21,11 +21,10 @@ module.exports = {
 					]
 				},
 				"header-match-team-pattern": ({ type, ticket, subject }) => {
-					console.log(type, ticket, subject)
 					if (!type && !ticket && !subject) {
 						return [
 							false,
-							"Header must be in format '✅ [FPT-4605] some text'",
+							"Header must be in format 'Feat [FPT-4605] some text'",
 						];
 					}
 					return [true, ""];
@@ -35,6 +34,7 @@ module.exports = {
 
 	],
 	rules: {
+
 		"header-match-team-pattern": [2,"always"],
 		"jira-ticket": [2, "always"]
 	},
