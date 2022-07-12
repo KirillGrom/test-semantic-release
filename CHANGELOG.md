@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.7.0...v1.8.0) (2022-07-12)
+
+
+### Features
+
+* Test ([cbd1036](https://github.com/KirillGrom/test-semantic-release/commit/cbd103662f141d518ae1039b4a1b0f12c58f6e5d))
+
 # [1.7.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.6.0...v1.7.0) (2022-07-12)
 
 
