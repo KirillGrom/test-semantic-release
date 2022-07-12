@@ -25,6 +25,7 @@ module.exports = {
 					return [true, ""];
 				},
 				"type-pattern": ({ type }, types) => {
+					console.log(type, types)
 					const result = types.includes(type);
 					return [result, result ? '' : 'Type must be one of [Feat, Fix, Refactor, Test]'];
 				}
@@ -39,6 +40,7 @@ module.exports = {
 			['Feat', 'Fix', 'Refactor', 'Test']
 		],
 		"header-match-team-pattern": [2,"always"],
-		"jira-ticket": [2, "always"]
+		"jira-ticket": [2, "always"],
+		"type-pattern": [2,"always", ['Feat', 'Fix', 'Refactor', 'Test']]
 	},
 };
