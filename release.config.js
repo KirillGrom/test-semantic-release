@@ -30,9 +30,8 @@ module.exports = {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
         writerOpts: {
-          commitsSort: [ 'ticket', 'subject' ],
+          commitsSort: [ 'header', 'subject' ],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-          commit:'{{host}}/{{owner}}/{{repository}}/commit/{{hash}}'
         },
       }
     ],
