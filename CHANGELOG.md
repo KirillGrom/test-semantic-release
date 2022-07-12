@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.13.0...v1.14.0) (2022-07-12)
+
+
+### Features
+
+* test autheer ([cb73ba3](https://github.com/KirillGrom/test-semantic-release/<commit>/cb73ba3b4d14b3a6e9fc10ebaaaa6efb8d889694))
+
 # [1.13.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.12.0...v1.13.0) (2022-07-12)
 
 
