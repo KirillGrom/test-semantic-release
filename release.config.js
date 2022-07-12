@@ -41,6 +41,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
+        assets:["CHANGELOG.md"],
         "message": "${nextRelease.version}"
       },
     ],
