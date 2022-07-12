@@ -30,7 +30,6 @@ module.exports = {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
         writerOpts: {
-          commitsSort: [ 'header', 'subject' ],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
       }
