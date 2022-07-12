@@ -5,11 +5,11 @@ module.exports = {
   plugins: [
     ['@semantic-release/commit-analyzer',{
       releaseRules: [
-        {"tag": "feat", "release": "minor"},
-        {"tag": "fix", "scope":"README", "release": "patch"},
-        {"tag": "hot",  "release": "patch"},
-        {"tag": "docs", "release": "patch"},
-        {"tag": "refactor", "release": "minor"},
+        {"type": "feat", "release": "minor"},
+        {"type": "fix", "scope":"README", "release": "patch"},
+        {"type": "hot",  "release": "patch"},
+        {"type": "docs", "release": "patch"},
+        {"type": "refactor", "release": "minor"},
       ],
       parserOpts: {
         headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
@@ -17,7 +17,7 @@ module.exports = {
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
       writerOpts: {
-        commitsSort: [ 'ticket', 'scope' ],
+        commitsSort: [ 'ticket', 'subject' ],
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
     }],
@@ -37,7 +37,7 @@ module.exports = {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
         writerOpts: {
-          commitsSort: [ 'ticket', 'scope' ],
+          commitsSort: [ 'ticket', 'subject' ],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
       }
