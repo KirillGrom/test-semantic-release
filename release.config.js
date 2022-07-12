@@ -8,12 +8,19 @@ module.exports = {
         {"type": "Fix", "scope":"README", "release": "patch"},
         {"type": "Feat", "release": "minor"},
       ],
-      config: {
-        headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
-        headerCorrespondence: ["type", "ticket", "subject"],
-      },
       parserOpts: {
-        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
+        headerCorrespondence: ["header"],
+      },
+      writerOpts: {
+        commitsSort: [ 'ticket', 'subject' ],
+        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
+        rules: {
+          "type-enum":[
+            1,
+            'always',
+            ['Feat', 'Fix', 'Refactor', 'Test']
+          ],
+        }
       },
     }],
     [
@@ -29,14 +36,17 @@ module.exports = {
           {"type": "Fix", "scope":"README", "release": "patch"},
           {"type": "Feat", "release": "minor"},
         ],
-        config: {
-          parserOpts: {
-            headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
-            headerCorrespondence: ["type", "ticket", "subject"],
-          },
-        },
         parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
+          headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
+          headerCorrespondence: ["type", "ticket", "subject"],
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
+          rules: {
+            "type-enum":[
+              1,
+              'always',
+              ['Feat', 'Fix', 'Refactor', 'Test']
+            ],
+          }
         },
       }
     ],

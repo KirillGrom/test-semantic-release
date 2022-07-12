@@ -1,3 +1,24 @@
+# [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-12)
+
+
+### Bug Fixes
+
+* gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
+
+# [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-12)
+
+
+### Bug Fixes
+
+* gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
+
+# [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-11)
+
+
+### Bug Fixes
+
+* gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
+
 ## [1.0.1](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.0...v1.0.1) (2022-07-07)
 
 
