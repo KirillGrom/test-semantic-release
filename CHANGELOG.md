@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.14.0...v1.15.0) (2022-07-12)
+
+
+### Features
+
+* Added env ([45bb527](https://github.com/KirillGrom/test-semantic-release/<commit>/45bb527621ebd25fd6e5252855444920e8b44889))
+
 # [1.14.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.13.0...v1.14.0) (2022-07-12)
 
 
