@@ -5,8 +5,11 @@ module.exports = {
   plugins: [
     ['@semantic-release/commit-analyzer',{
       releaseRules: [
-        {"type": "fix", "scope":"README", "release": "patch"},
-        {"type": "feat", "release": "minor"},
+        {"tag": "feat", "release": "minor"},
+        {"tag": "fix", "scope":"README", "release": "patch"},
+        {"tag": "hot",  "release": "patch"},
+        {"tag": "docs", "release": "patch"},
+        {"tag": "refactor", "release": "minor"},
       ],
       parserOpts: {
         headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
