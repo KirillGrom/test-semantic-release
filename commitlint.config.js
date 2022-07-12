@@ -32,6 +32,7 @@ module.exports = {
 		},
 	],
 	rules: {
+
 		'type-case': [2, 'always', ['start-case', 'lower-case']],
 		'type-empty': [2, 'never'],
 		"type-enum":[
