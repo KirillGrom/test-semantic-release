@@ -32,6 +32,7 @@ module.exports = {
         writerOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
+        commit: '<owner>'
       }
     ],
     [
@@ -45,7 +46,7 @@ module.exports = {
       '@semantic-release/git',
       {
         assets:["CHANGELOG.md"],
-        "message": "${nextRelease.version}"
+        message: "${nextRelease.version}"
       },
     ],
   ],
