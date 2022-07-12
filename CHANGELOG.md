@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.8.0...v1.9.0) (2022-07-12)
+
+
+### Features
+
+* Test 23 ([acecaf4](https://github.com/KirillGrom/test-semantic-release/commit/acecaf4d0a8a6b2b4afec976a1a8c6180e2c732c))
+
 # [1.8.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.7.0...v1.8.0) (2022-07-12)
 
 
