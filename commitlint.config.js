@@ -24,6 +24,10 @@ module.exports = {
 					}
 					return [true, ""];
 				},
+				"type-pattern": ({ type }, types) => {
+					const result = types.includes(type);
+					return [result, result ? '' : 'Type must be one of [Feat, Fix, Refactor, Test]'];
+				}
 			},
 		},
 

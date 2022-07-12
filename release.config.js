@@ -9,18 +9,8 @@ module.exports = {
         {"type": "Feat", "release": "minor"},
       ],
       parserOpts: {
-        headerCorrespondence: ["header"],
-      },
-      writerOpts: {
-        commitsSort: [ 'ticket', 'subject' ],
-        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-        rules: {
-          "type-enum":[
-            1,
-            'always',
-            ['Feat', 'Fix', 'Refactor', 'Test']
-          ],
-        }
+        headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
+        headerCorrespondence: ["type", "ticket", "subject"],
       },
     }],
     [
@@ -40,20 +30,18 @@ module.exports = {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
           headerCorrespondence: ["type", "ticket", "subject"],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-          rules: {
-            "type-enum":[
-              1,
-              'always',
-              ['Feat', 'Fix', 'Refactor', 'Test']
-            ],
-          }
+        },
+        writerOpts: {
+          commitsSort: [ 'ticket', 'subject' ],
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
       }
     ],
+    "@semantic-release/npm",
     [
       '@semantic-release/git',
       {
-        "assets": ["CHANGELOG.md"],
+        "message": "${nextRelease.version}"
       },
     ],
   ],
