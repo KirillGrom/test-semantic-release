@@ -26,13 +26,14 @@ module.exports = {
 				},
 				"type-pattern": ({ type }, _,types) => {
 					const result = types.includes(type);
-					return [result, result ? '' : 'Type must be one of [Feat, Fix, Refactor, Test]'];
+					return [result, result ? '' : 'Type must be one of [feat, fix, refactor, test]'];
 				}
 			},
 		},
-
 	],
 	rules: {
+		'type-case': [2, 'always', ['start-case', 'lower-case']],
+		'type-empty': [2, 'never'],
 		"type-enum":[
 			1,
 			'always',
@@ -40,6 +41,5 @@ module.exports = {
 		],
 		"header-match-team-pattern": [2,"always"],
 		"jira-ticket": [2, "always"],
-		"type-pattern": [2,"always", ['feat', 'fix', 'refactor', 'test']]
 	},
 };
