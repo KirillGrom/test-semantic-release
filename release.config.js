@@ -11,6 +11,11 @@ module.exports = {
       parserOpts: {
         headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
         headerCorrespondence: ["type", "ticket", "subject"],
+        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
+      },
+      writerOpts: {
+        commitsSort: [ 'ticket', 'subject' ],
+        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
     }],
     [
