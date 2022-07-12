@@ -19,17 +19,14 @@ module.exports = {
       },
     }],
     [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "CHANGELOG.md"
-      }
-    ],
-    [
       '@semantic-release/release-notes-generator',
       {
         releaseRules: [
-          {"type": "fix", "scope":"README", "release": "patch"},
-          {"type": "feat", "release": "minor"},
+          {"tag": "feat", "release": "minor"},
+          {"tag": "fix", "scope":"README", "release": "patch"},
+          {"tag": "hot",  "release": "patch"},
+          {"tag": "docs", "release": "patch"},
+          {"tag": "refactor", "release": "minor"},
         ],
         parserOpts: {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
@@ -40,6 +37,12 @@ module.exports = {
           commitsSort: [ 'ticket', 'subject' ],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
       }
     ],
     // "@semantic-release/npm",
