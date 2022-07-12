@@ -32,7 +32,7 @@ module.exports = {
         writerOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
-        commit: '<owner>'
+        commit: '<commit>'
       }
     ],
     [
