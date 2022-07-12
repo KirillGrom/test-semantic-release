@@ -17,7 +17,7 @@ module.exports = {
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
       writerOpts: {
-        commitsSort: [ 'ticket', 'subject' ],
+        commitsSort: [ 'ticket', 'scope' ],
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
     }],
@@ -37,7 +37,7 @@ module.exports = {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
         writerOpts: {
-          commitsSort: [ 'ticket', 'subject' ],
+          commitsSort: [ 'ticket', 'scope' ],
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
       }
