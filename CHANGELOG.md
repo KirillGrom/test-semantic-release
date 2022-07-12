@@ -5,6 +5,30 @@
 
 * gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
 
+
+### Features
+
+* test relisa ([e821be4](https://github.com/KirillGrom/test-semantic-release/commit/e821be47b7a1ae748f7e39a7317ee717992b43a4))
+
+# [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-12)
+
+
+### Bug Fixes
+
+* gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
+
+
+### Features
+
+* test relisa ([e821be4](https://github.com/KirillGrom/test-semantic-release/commit/e821be47b7a1ae748f7e39a7317ee717992b43a4))
+
+# [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-12)
+
+
+### Bug Fixes
+
+* gdfgdgfdg ([9e30602](https://github.com/KirillGrom/test-semantic-release/commit/9e30602dbfe87bb16352973fe7670fad3d289cef))
+
 # [1.1.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.0.1...v1.1.0) (2022-07-12)
 
 
