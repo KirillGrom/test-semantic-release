@@ -52,6 +52,7 @@ module.exports = {
           "package.json",
           "package-lock.json"
         ],
+
         message: "${nextRelease.version}"
       },
     ],
