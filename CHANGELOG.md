@@ -1,3 +1,12 @@
+# [1.13.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.12.0...v1.13.0) (2022-07-12)
+
+
+### Features
+
+* release.config.js ([4e74898](https://github.com/KirillGrom/test-semantic-release/<commit>/4e7489829e59ca1f99a013faddef670cc0790dc5))
+* updated package-lock.json ([a32b719](https://github.com/KirillGrom/test-semantic-release/<commit>/a32b719279d3e3c02109cdc252d4f830dbd34b56))
+* updated package.json ([58073e8](https://github.com/KirillGrom/test-semantic-release/<commit>/58073e8d977a8d9b41a4b8207de263105c44edec))
+
 # [1.12.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.11.0...v1.12.0) (2022-07-12)
 
 

@@ -9,7 +9,7 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
