@@ -36,9 +36,17 @@ module.exports = {
 		'type-case': [2, 'always', ['start-case', 'lower-case']],
 		'type-empty': [2, 'never'],
 		"type-enum":[
-			1,
+			2,
 			'always',
-			['feat', 'fix', 'refactor', 'test']
+			['feat',
+				'fix',
+				'refactor',
+				'test',
+				'Feat',
+				'Fix',
+				'Refactor',
+				'Test'
+			]
 		],
 		"header-match-team-pattern": [2,"always"],
 		"jira-ticket": [2, "always"],
