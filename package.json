@@ -9,11 +9,11 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "npx semantic-release"
+    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx semantic-release"
   },
   "repository": {
     "type": "git",
