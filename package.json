@@ -12,7 +12,8 @@
   "version": "1.16.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "npx semantic-release"
   },
   "repository": {
     "type": "git",
