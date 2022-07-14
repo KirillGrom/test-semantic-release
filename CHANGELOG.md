@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.18.0...v1.19.0) (2022-07-14)
+
+
+### Features
+
+* updated  telegram msg ([b7ec836](https://github.com/KirillGrom/test-semantic-release/<commit>/b7ec8360f55ecdad90b8edd73cd4b429a494e2a3))
+
 # [1.18.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.17.0...v1.18.0) (2022-07-14)
 
 
