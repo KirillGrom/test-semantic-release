@@ -39,6 +39,7 @@ module.exports = {
 				'docs',
 			],
 		],
+
 		'header-match-team-pattern': [2,'always'],
 		'jira-ticket': [2, 'always'],
 	},

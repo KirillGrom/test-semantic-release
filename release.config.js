@@ -35,6 +35,14 @@ module.exports = {
         commit: '<commit>'
       }
     ],
+    ["semantic-release-telegram", {
+      "name": "funny-app",
+      "chats": [ 1624638424 ],
+      "templates": {
+        "fail"    : "An error occured while trying to publish the new version of <b>{name}</b>.\n<pre><code class='language-javascript'>{error}</code></pre>",
+        "success" : "A new version of <a href='{repository_url}'>{name}</a> has been released. Current version is <b>{version}</b>"
+      }
+    }]
     [
       "@semantic-release/changelog",
       {
