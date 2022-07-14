@@ -37,9 +37,10 @@ module.exports = {
     ["semantic-release-telegram", {
       "name": "test-semantic-release",
       "chats": [-1001749648308],
-      "templates": {
-        "fail"    : "An error occured while trying to publish the new version of <b>{name}</b>.\n<pre><code class='language-javascript'>{error}</code></pre>",
-        "success" : "Опубликована новая версия  <a href='{repository_url}'>{name}</a><b>{version}</b> Было добавлено {release_notes}"
+      "telegra.ph"  : {
+        "title"   : "Опубликована новая версия {name} v.{version}",
+        "message" : "<a href='{telegraph_url}'>Release Notes</a>",
+        "content" : "{release_notes}"
       }
     }],
     [
