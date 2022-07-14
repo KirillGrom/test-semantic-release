@@ -32,7 +32,6 @@ module.exports = {
         writerOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
         },
-        commit: '<commit>'
       }
     ],
     ["semantic-release-telegram", {
