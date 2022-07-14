@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx semantic-release"
+    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx -c semantic-release"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release-telegram": "1.5.1"
+    "semantic-release-telegram": "^1.0.5"
   }
 }

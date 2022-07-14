@@ -8,6 +8,19 @@
 
 ### Features
 
+* Add semantic-release to the project ([144b142](https://github.com/KirillGrom/test-semantic-release/<commit>/144b142c49992e326363440eba7006edd2328506))
+* Added telegram bot ([1693fec](https://github.com/KirillGrom/test-semantic-release/<commit>/1693fec7c220505d3ce9c0ab6627a41ad9e3afb0))
+
+# [1.17.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.16.0...v1.17.0) (2022-07-14)
+
+
+### Bug Fixes
+
+* dfgdgdfg ([c7629db](https://github.com/KirillGrom/test-semantic-release/<commit>/c7629db7c9bce65cc94db7c594873db1166b4394))
+
+
+### Features
+
 * Added telegram bot ([1693fec](https://github.com/KirillGrom/test-semantic-release/<commit>/1693fec7c220505d3ce9c0ab6627a41ad9e3afb0))
 
 # [1.16.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.15.0...v1.16.0) (2022-07-12)
