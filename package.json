@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx semantic-release"
+    "release": "TELEGRAM_BOT_ID=5595534548 TELEGRAM_BOT_TOKEN=AAG5P7nbXobyX1PRP-nCt390s_SYE8AGd4Q npx semantic-release"
   },
   "repository": {
     "type": "git",

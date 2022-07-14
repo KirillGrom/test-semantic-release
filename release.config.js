@@ -36,7 +36,7 @@ module.exports = {
     ],
     ["semantic-release-telegram", {
       "name": "test-semantic-release",
-      "chats": [-1001749648308],
+      "chats": [5595534548],
       "telegra.ph"  : {
         "title"   : "Опубликована новая версия {name} v.{version}",
         "message" : "<a href='{telegraph_url}'>Release Notes</a>",
