@@ -5,7 +5,7 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "husky": "^8.0.1",
-    "semantic-release": "^19.0.3"
+    "semantic-release": "19.0.3"
   },
   "name": "test-semantic-release",
   "description": "",
@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx -c semantic-release"
+    "release": "TELEGRAM_BOT_ID=5599069506 TELEGRAM_BOT_TOKEN=AAELqK7iqdR1QRygTzRwJUHZwv2WxAmDGQQ npx semantic-release"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,9 @@
   },
   "homepage": "https://github.com/KirillGrom/test-semantic-release#readme",
   "dependencies": {
+    "@babel/runtime": "^7.18.6",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release-telegram": "^1.0.5"
+    "semantic-release-telegram": "1.5.1"
   }
 }
