@@ -25,6 +25,7 @@ module.exports = {
       '@semantic-release/release-notes-generator',
       {
         presetConfig: {
+
           commitUrlFormat: "{{host}}/projects/UILIB/repos/{{repository}}/commits/{{hash}}"
         },
         parserOpts: {
