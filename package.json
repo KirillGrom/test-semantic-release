@@ -9,11 +9,11 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.27.0",
+  "version": "1.28.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "export $(cat .env) && npx semantic-release"
+    "release": "npx semantic-release"
   },
   "repository": {
     "type": "git",

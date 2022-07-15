@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.27.0...v1.28.0) (2022-07-15)
+
+
+### Features
+
+* Added new token bot ([606d779](https://github.com/KirillGrom/test-semantic-release/commit/606d779a7590702e0c92ba4929566c81ff577dd2))
+
 # [1.27.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.26.0...v1.27.0) (2022-07-14)
 
 
