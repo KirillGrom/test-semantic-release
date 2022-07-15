@@ -25,7 +25,7 @@ module.exports = {
       '@semantic-release/release-notes-generator',
       {
         presetConfig: {
-          commitUrlFormat: "{{host}}/projects/UILIB/repos/{{name}}/commits/{{hash}}"
+          commitUrlFormat: "{{host}}/projects/UILIB/repos/{{repository}}/commits/{{hash}}"
         },
         parserOpts: {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
