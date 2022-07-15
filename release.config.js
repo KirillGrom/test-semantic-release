@@ -1,5 +1,3 @@
-const dotenv = require('dotenv');
-dotenv.config();
 module.exports = {
   dryRun: false,
   ci: false,
@@ -26,6 +24,9 @@ module.exports = {
     [
       '@semantic-release/release-notes-generator',
       {
+        presetConfig: {
+          commitUrlFormat: "{{host}}/projects/UILIB/repos/{{name}}/commits/{{hash}}"
+        },
         parserOpts: {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
           headerCorrespondence: ["type", "ticket", "subject"],
