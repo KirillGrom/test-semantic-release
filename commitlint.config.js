@@ -1,6 +1,7 @@
 module.exports = {
 	parserPreset: {
 
+
 		parserOpts: {
 			headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
 			headerCorrespondence: ['type', 'ticket', 'subject'],
