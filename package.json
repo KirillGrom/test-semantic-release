@@ -12,7 +12,7 @@
   "version": "1.35.6",
   "scripts": {
     "prepare": "husky install",
-    "release": "GIT_COMMITTER_EMAIL=kirill@grom.fg && npx semantic-release --debug",
+    "release": "export GIT_COMMITTER_EMAIL=kirill@grom && npx semantic-release --debug",
     "test": "git config user.email"
   },
   "repository": {
