@@ -1,3 +1,10 @@
+# [1.36.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.35.8...v1.36.0) (2022-07-21)
+
+
+### Features
+
+* tetst ([ada59d7](https://github.com/KirillGrom/test-semantic-release/commit/ada59d7139c14e8b55641fe611fc7fa239994c42))
+
 ## [1.35.8](https://github.com/KirillGrom/test-semantic-release/compare/v1.35.7...v1.35.8) (2022-07-21)
 
 
