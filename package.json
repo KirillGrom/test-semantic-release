@@ -9,7 +9,7 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.35.4",
+  "version": "1.35.5",
   "scripts": {
     "prepare": "husky install",
     "release": "export $(cat .env) && npx semantic-release --debug",
