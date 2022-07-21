@@ -9,10 +9,10 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.35.7",
+  "version": "1.35.8",
   "scripts": {
     "prepare": "husky install",
-    "set-env":"GIT_AUTHOR_NAME='Kirill Gromov' GIT_COMMITTER_NAME='Kirill Gromov' GIT_COMMITTER_EMAIL=kirill@gromov.vk GIT_AUTHOR_EMAIL=kirill@gromov.vk",
+    "set-env": "GIT_AUTHOR_NAME='Kirill Gromov' GIT_COMMITTER_NAME='Kirill Gromov' GIT_COMMITTER_EMAIL=kirill@gromov.vk GIT_AUTHOR_EMAIL=kirill@gromov.vk",
     "release": "npm run set-env && npx semantic-release --debug",
     "test": "git config user.email"
   },
