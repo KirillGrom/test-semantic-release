@@ -9,12 +9,12 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.35.0",
+  "version": "1.35.2",
   "scripts": {
     "prepare": "husky install",
     "release": "export $(cat .env) && GIT_COMMITTER_EMAIL=kirill@grom.fg  && npx semantic-release --debug",
     "test": "git config user.email"
-  } ,
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KirillGrom/test-semantic-release.git"
