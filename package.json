@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "release": "export $(cat .env) && npx semantic-release --debug"
+    "release": "export $(cat .env) && export $(cat ~/.gitconfig) && npx semantic-release --debug"
   },
   "repository": {
     "type": "git",
