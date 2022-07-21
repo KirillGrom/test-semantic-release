@@ -1,3 +1,10 @@
+## [1.35.7](https://github.com/KirillGrom/test-semantic-release/compare/v1.35.6...v1.35.7) (2022-07-21)
+
+
+### Bug Fixes
+
+* dfdfgdfg ([7a53ca7](https://github.com/KirillGrom/test-semantic-release/commit/7a53ca73c6bbc48c466e1ae6878f22b8d112606b))
+
 ## [1.35.6](https://github.com/KirillGrom/test-semantic-release/compare/v1.35.5...v1.35.6) (2022-07-21)
 
 
