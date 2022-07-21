@@ -1,3 +1,10 @@
+# [1.33.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.32.0...v1.33.0) (2022-07-21)
+
+
+### Features
+
+* dfgdg ([a4f1041](https://github.com/KirillGrom/test-semantic-release/commit/a4f1041f27efa46262cc30b31f210b2b0ac872bf))
+
 # [1.32.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.31.0...v1.32.0) (2022-07-15)
 
 
