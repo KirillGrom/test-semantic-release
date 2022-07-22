@@ -36,10 +36,14 @@ module.exports = {
 			'always',
 			['feat',
 				'fix',
-				'refactor',
-				'hot',
 				'docs',
-				'smallFix'
+				'style',
+				'refactor',
+				'perf',
+				'test',
+				'build',
+				'chore',
+				'revert'
 			],
 		],
 

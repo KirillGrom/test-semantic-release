@@ -26,12 +26,50 @@ module.exports = {
       '@semantic-release/release-notes-generator',
       {
         presetConfig: {
-          types: [
-            {
-              tag:'smallFix',
-              section: "smallFix",
+          types: {
+            feat: {
+              title: 'Features',
+              emoji: '✨',
             },
-          ],
+            fix: {
+              title: 'Bug Fixes',
+              emoji: '🐛',
+            },
+            docs: {
+              title: 'Documentation',
+              emoji: '📚',
+            },
+            style: {
+              title: 'Styles',
+              emoji: '💎',
+              hidden: true,
+            },
+            refactor: {
+              title: 'Code Refactoring',
+              emoji: '📦',
+              hidden: true,
+            },
+            perf: {
+              title: 'Performance Improvements',
+              emoji: '🚀',
+            },
+            test: {
+              title: 'Tests',
+              emoji: '🚨',
+            },
+            build: {
+              title: 'Builds',
+              emoji: '🛠',
+            },
+            chore: {
+              title: 'Chores',
+              emoji: '♻️',
+            },
+            revert: {
+              title: 'Reverts',
+              emoji: '🗑',
+            },
+          },
         },
         parserOpts: {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
