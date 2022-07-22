@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.38.3...v1.39.0) (2022-07-22)
+
+
+### Features
+
+* fgfghfh ([b5d9134](https://github.com/KirillGrom/test-semantic-release/commit/b5d9134124b8a2537b2205e7801089e06e3bb0f1))
+
 ## [1.38.3](https://github.com/KirillGrom/test-semantic-release/compare/v1.38.2...v1.38.3) (2022-07-22)
 
 ## [1.38.2](https://github.com/KirillGrom/test-semantic-release/compare/v1.38.1...v1.38.2) (2022-07-22)
