@@ -28,7 +28,7 @@ module.exports = {
         presetConfig: {
           types: [
             {
-              type:'smallFix',
+              tag:'smallFix',
               section: ":sparkles: smallFix",
             },
           ],
