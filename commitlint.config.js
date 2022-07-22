@@ -39,8 +39,6 @@ module.exports = {
 				'docs',
 				'style',
 				'refactor',
-				'perf',
-				'test',
 				'build',
 				'chore',
 				'revert'
