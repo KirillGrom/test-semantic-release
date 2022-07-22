@@ -9,7 +9,7 @@
   },
   "name": "test-semantic-release",
   "description": "",
-  "version": "1.38.1",
+  "version": "1.38.2",
   "scripts": {
     "prepare": "husky install",
     "release": "export GIT_AUTHOR_NAME=$(git config user.name) && export GIT_AUTHOR_EMAIL=$(git config user.email) && npx semantic-release --debug",
