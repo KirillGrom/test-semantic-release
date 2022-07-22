@@ -10,7 +10,7 @@ module.exports = {
         {"type": "hot",  "release": "patch"},
         {"type": "docs", "release": "patch"},
         {"type": "refactor", "release": "minor"},
-        {"type": "smallFix", "release":"patch"}
+        {"type": "smallFix", "release": false}
       ],
       parserOpts: {
         headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
@@ -29,7 +29,7 @@ module.exports = {
           types: [
             {
               tag:'smallFix',
-              section: ":sparkles: smallFix",
+              section: "smallFix",
             },
           ],
         },
