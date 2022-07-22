@@ -29,7 +29,7 @@ module.exports = {
           types: [
             {
               type:'smallFix',
-              hidden: false,
+              section: ":sparkles: smallFix",
             },
           ],
         },
