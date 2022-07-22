@@ -34,10 +34,12 @@ module.exports = {
             fix: {
               title: 'Bug Fixes',
               emoji: '🐛',
+              hidden: true,
             },
             docs: {
               title: 'Documentation',
               emoji: '📚',
+              hidden: true,
             },
             style: {
               title: 'Styles',
