@@ -1,7 +1,6 @@
 #!/bin/bash
 echo 'TEST'
 message="$(cat $1)"
-pat=/[^\s]*/
-[[ $message =~ $pat ]]
-echo ${BASH_REMATCH}
+arr=($message)
+echo ${arr[0]}
 
