@@ -1,8 +1,10 @@
 #!/bin/bash
 echo 'TEST'
-message="$(cat $1)"
-arr=($message)
-echo ${arr[0]}
-echo ${arr[1]}
-echo ${arr[2]}
+arr=($(cat $1))
+type_commit=${arr[0]}
+jira_ticket=${arr[1]}
+message_commit=${arr[2]}
+echo $type_commit
+echo $jira_ticket
+echo $message_commit
 
