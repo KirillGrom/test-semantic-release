@@ -2,6 +2,6 @@
 echo 'TEST'
 message="$(cat $1)"
 pat=/[^\s]*/
-echo [[ $message =~ $pat ]]
+[[ $message =~ $pat ]]
 echo ${BASH_REMATCH}
 
