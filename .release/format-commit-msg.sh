@@ -16,4 +16,4 @@ do
     fi
 done
 }
-echo get_index_emoji
+echo ${get_index_emoji}
