@@ -20,4 +20,5 @@ done
 echo $(( index ))
 }
 index_emoji=$( get_index_emoji)
-echo "${emojis[index_emoji]} ${jira_ticket} ${message_commit}" > .git/commit_editmsg
+val=$(echo "$message_commit" | awk '{print tolower($0)}')
+echo "${emojis[index_emoji]} ${jira_ticket} ${val}" > .git/commit_editmsg
