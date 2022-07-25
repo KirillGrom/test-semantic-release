@@ -10,7 +10,7 @@ emojis=("✨" "🐛" "📚" "💎" "📦" "🛠" "♻" "🗑")
 function get_index_emoji {
 for i in "${!types[@]}";
 do
-    if [[ "${types[$i]}" = "${types}" ]];
+    if [[ "${types[$i]}" = "${type_commit}" ]];
     then
         echo "${types[$i]}"
         return $(( $i ))
