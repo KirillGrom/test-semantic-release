@@ -4,7 +4,7 @@ arr=($(cat $1))
 type_commit=${arr[0]}
 jira_ticket=${arr[1]}
 message_commit=${arr[2]}
-declare -r -A emojis=(
+declare -r -A EMOJIS=(
 [feat]="✨"
 [fix]="🐛"
 [refactor]="📦"
@@ -15,4 +15,4 @@ declare -r -A emojis=(
 [chore]="♻️"
 [revert]="🗑"
 )
-echo " emojis ${emojis[build]}"
+echo " emojis ${EMOJIS[build]}"
