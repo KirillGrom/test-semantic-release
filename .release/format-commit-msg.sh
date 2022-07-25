@@ -5,4 +5,5 @@ pat='/[^\s]*/'
 [[ $message =~ $pat ]]
 echo $message
 echo ${BASH_REMATCH[0]}
+echo ${BASH_REMATCH[1]}
 
