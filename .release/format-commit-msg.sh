@@ -16,4 +16,5 @@ do
     fi
 done
 }
-echo $(get_index_emoji)
+result=$( get_index_emoji)
+echo $result
