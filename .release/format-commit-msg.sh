@@ -8,7 +8,7 @@ types=("feat" "fix" "docs" "style" "refactor" "build" "chore" "revert")
 emojis=("✨" "🐛" "📚" "💎" "📦" "🛠" "♻" "🗑")
 
 function get_index_emoji {
-  echo "${!types[@]}"
+  echo "${types[@]}"
 for i in "${!types[@]}";
 do
     if [[ "${types[$i]}" = "${types}" ]];
