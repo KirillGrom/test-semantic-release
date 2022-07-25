@@ -12,7 +12,7 @@
   "version": "1.40.0",
   "scripts": {
     "prepare": "husky install",
-    "release": "export GIT_AUTHOR_NAME=$(git config user.name) && export GIT_AUTHOR_EMAIL=$(git config user.email) && npx semantic-release --debug",
+    "release": "export GIT_AUTHOR_NAME=$(git config user.name) && export GIT_AUTHOR_EMAIL=$(git config user.email)",
     "test": "git config user.email"
   },
   "repository": {
