@@ -19,5 +19,5 @@ do
 done
 echo $(( index ))
 }
-result=$( get_index_emoji)
-echo $result
+index_emoji=$( get_index_emoji)
+echo "${emojis[index_emoji]} ${jira_ticket} ${message_commit}" > .git/commit_editmsg
