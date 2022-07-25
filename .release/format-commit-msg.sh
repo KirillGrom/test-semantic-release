@@ -15,4 +15,4 @@ declare -A emojis=(
 [chore]="♻️"
 [revert]="🗑"
 )
-echo ${emojis[style]}
+echo " emojis ${emojis[style]}"
