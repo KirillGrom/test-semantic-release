@@ -8,14 +8,16 @@ types=("feat" "fix" "docs" "style" "refactor" "build" "chore" "revert")
 emojis=("✨" "🐛" "📚" "💎" "📦" "🛠" "♻" "🗑")
 
 function get_index_emoji {
+ index=-1
 for i in "${!types[@]}";
 do
     if [[ "${types[$i]}" = "${type_commit}" ]];
     then
-        echo "${types[$i]}"
-        return $(( $i ))
+        index=$i
+        break
     fi
 done
+echo $(( index ))
 }
 result=$( get_index_emoji)
 echo $result
