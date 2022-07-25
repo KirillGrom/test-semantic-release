@@ -16,4 +16,4 @@ EMOJIS=(
 [chore]="♻️"
 [revert]="🗑"
 )
-echo " emojis ${EMOJIS[build]}"
+echo " emojis ${EMOJIS[*]}"
