@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'TEST'
 message="$(cat $1)"
-
-[[ $message =~ /[^\s]*/ ]]
-echo ${BASH_REMATCH[0]}
+pat=/[^\s]*/
+echo [[ $message =~ $pat ]]
+echo ${BASH_REMATCH}
 
