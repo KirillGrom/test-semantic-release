@@ -1,3 +1,37 @@
+# [1.41.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.40.0...v1.41.0) (2022-07-26)
+
+
+### Features
+
+* dfgdfgdg ([28c4985](https://github.com/KirillGrom/test-semantic-release/commit/28c4985fda11db690ae1e5bcc7940ecd6dac860c))
+* dfgdfgdg ([f4ffd65](https://github.com/KirillGrom/test-semantic-release/commit/f4ffd6578f41b7629015216222b99b6e74de7f09))
+* dfgdfgdg ([2263768](https://github.com/KirillGrom/test-semantic-release/commit/22637682bbcb2413f1400f1e7160eadd8399851d))
+* dfgdfgdg ([0df3802](https://github.com/KirillGrom/test-semantic-release/commit/0df380276919e5691ed7c8cc36c41b6534140917))
+* dfgdfgdg ([962bdcb](https://github.com/KirillGrom/test-semantic-release/commit/962bdcb6526bc8ed5da51985055bd76b8ace4662))
+* dfgdfgdg ([eebf1ae](https://github.com/KirillGrom/test-semantic-release/commit/eebf1ae9ee10eb3ff18ffc17ce681d6553dba3d4))
+* dfgdfgdg ([6c09de9](https://github.com/KirillGrom/test-semantic-release/commit/6c09de9f8b8ffa94012a80e1714f999878b9b927))
+* dfgdfgdg ([49cc6f6](https://github.com/KirillGrom/test-semantic-release/commit/49cc6f6bb9ec6ef83b7bb9336e011691af27d05e))
+* dfgdfgdg ([ab1d4f2](https://github.com/KirillGrom/test-semantic-release/commit/ab1d4f29c6821e08a7af1cc48f10747771569f8b))
+* dfgdfgdg ([3e0ccbe](https://github.com/KirillGrom/test-semantic-release/commit/3e0ccbe365ab31a1d46495df79cbfbb6122c41da))
+* dfgdfgdg ([5ab69d7](https://github.com/KirillGrom/test-semantic-release/commit/5ab69d7f1606089d6b828d2da1eb7c5d8a711735))
+* dfgdfgdg ([7f7acac](https://github.com/KirillGrom/test-semantic-release/commit/7f7acac9883a377d451a38ef29f6d79a7c0ef199))
+* dfgdfgdg ([e77c144](https://github.com/KirillGrom/test-semantic-release/commit/e77c14415eb001bb7a5edbe4d7c474719a446a02))
+* dfgdfgdg ([c6fec1e](https://github.com/KirillGrom/test-semantic-release/commit/c6fec1e43459233f32fb4cae61e6b27f8ecb8719))
+* dfgdfgdg ([afd7c6e](https://github.com/KirillGrom/test-semantic-release/commit/afd7c6efa7164943f27da948aa02b43bb43873b4))
+* dfgdfgdg ([93d57b3](https://github.com/KirillGrom/test-semantic-release/commit/93d57b3c00fc2c86d6a25a168742b4c13bd45728))
+* dfgdfgdg ([bce701e](https://github.com/KirillGrom/test-semantic-release/commit/bce701e1c6e2247fa6c9c28a670fc1a25f39e37c))
+* dfgdfgdg ([12ec890](https://github.com/KirillGrom/test-semantic-release/commit/12ec890dbfbb7c6f9cc9d501cbfc2eb6cc081675))
+* dfgdfgdg ([b3b4af6](https://github.com/KirillGrom/test-semantic-release/commit/b3b4af68c03b4cd02a6a7a90c712b13578af0450))
+* dfgdfgdg ([c7db97e](https://github.com/KirillGrom/test-semantic-release/commit/c7db97e4594888861171495e2fffef7ec8e63097))
+* dfgdfgdg ([f803b00](https://github.com/KirillGrom/test-semantic-release/commit/f803b0035262fdfe3fd4cb4820169a084b8d47d6))
+* dfgdfgdg ([bfe7fee](https://github.com/KirillGrom/test-semantic-release/commit/bfe7feea553ba3128d805303e2499b6f869dd742))
+* dfgdfgdg ([0a7f30c](https://github.com/KirillGrom/test-semantic-release/commit/0a7f30cebdc29291256cbc39cc09e00298c582f0))
+* dfgdfgdg ([6856b0c](https://github.com/KirillGrom/test-semantic-release/commit/6856b0c41f7497272e40e212312bfa029904ca68))
+* dfgdfgdg ([6409f00](https://github.com/KirillGrom/test-semantic-release/commit/6409f003bd27784face12d22d3fd5aa7fda6ee7a))
+* dfgdfgdg ([d331d23](https://github.com/KirillGrom/test-semantic-release/commit/d331d238482d92414388761f5320257edc235e54))
+* dfgdfgdg ([53f4106](https://github.com/KirillGrom/test-semantic-release/commit/53f4106cce9094a3c0915cbb6772fc19d1b2204e))
+* dfgdfgdg ([ab4dc4c](https://github.com/KirillGrom/test-semantic-release/commit/ab4dc4c4fc8d71fdc58d52a3b0aad168fc630988))
+
 # [1.41.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.40.0...v1.41.0) (2022-07-25)
 
 
