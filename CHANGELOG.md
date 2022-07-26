@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.42.0...v1.43.0) (2022-07-26)
+
+
+### Features test
+
+* Test notes ([baa62ce](https://github.com/KirillGrom/test-semantic-release/commit/baa62ce68a38a2aba833b5d08e3cabbd9efa2ef7))
+
 # [1.42.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.41.0...v1.42.0) (2022-07-26)
 
 # [1.41.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.40.0...v1.41.0) (2022-07-26)
