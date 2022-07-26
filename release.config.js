@@ -5,12 +5,12 @@ module.exports = {
   plugins: [
     ['@semantic-release/commit-analyzer',{
       releaseRules: [
-        {type: "feat", release: "minor"},
-        {type: "fix", release: "patch"},
-        {type: "refactor", release: "minor"},
-        {type: "docs", release: "patch"},
-        {type: "build", release: "patch"},
-        {type: "chore", release: "patch"},
+        {type: "✨", release: "minor"},
+        {type: "🐛", release: "patch"},
+        {type: "📦", release: "minor"},
+        {type: "📚", release: "patch"},
+        {type: "🛠", release: "patch"},
+        {type: "♻️", release: "patch"},
       ],
       parserOpts: {
         headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
@@ -26,32 +26,6 @@ module.exports = {
       '@semantic-release/release-notes-generator',
       {
         presetConfig: {
-          types: {
-            feat: {
-              title: 'Features 2',
-            },
-            fix: {
-              title: 'Bug Fixes',
-            },
-            docs: {
-              title: 'Documentation',
-            },
-            style: {
-              title: 'Styles',
-            },
-            refactor: {
-              title: 'Code Refactoring',
-            },
-            build: {
-              title: 'Builds',
-            },
-            chore: {
-              title: 'Chores',
-            },
-            revert: {
-              title: 'Reverts',
-            },
-          },
         },
         parserOpts: {
           headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),

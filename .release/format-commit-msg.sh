@@ -1,5 +1,7 @@
 #!/bin/bash
-echo 'TEST'
+if [[ $(cat $1) =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+  exit
+fi
 arr=($(cat $1))
 type_commit=${arr[0]}
 jira_ticket=${arr[1]}
