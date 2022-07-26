@@ -13,7 +13,7 @@ module.exports = {
         {type: "♻️", release: "patch"},
       ],
       parserOpts: {
-        headerPattern: new RegExp(/(^[\w]+) (?:\[(.*)\]\s)([^\[].+)/),
+        headerPattern: new RegExp(/(^[✨|🐛|📚|💎|📦|🛠|♻|🗑]+) (?:\[(.*)\]\s)([^\[].+)/),
         headerCorrespondence: ["type", "ticket", "subject"],
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
       },
