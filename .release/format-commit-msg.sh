@@ -22,5 +22,5 @@ done
 echo $(( index ))
 }
 index_emoji=$( get_index_emoji)
-val=$(echo "$message_commit" | perl -pe 's/^(.)/uc($1)/e')
-echo "${emojis[index_emoji]} ${jira_ticket} ${val}" > .git/commit_editmsg
+message_formatted=$(echo "$message_commit" | perl -pe 's/^(.)/uc($1)/e')
+echo "${emojis[index_emoji]} ${jira_ticket} ${message_formatted}" > .git/commit_editmsg

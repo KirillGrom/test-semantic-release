@@ -7,9 +7,9 @@ const emojis = {
   build: '🛠',
   chore: '♻',
   revert:'🗑',
-}
+};
 
-const headerPattern = new RegExp(/(^[✨|🐛|📚|💎|📦|🛠|♻|🗑]+) (?:\[(.*)\]\s)([^\[].+)/)
+const headerPattern = new RegExp(/(^[✨|🐛|📚|💎|📦|🛠|♻|🗑]+) (?:\[(.*)\]\s)([^\[].+)/);
 
 module.exports = {
   dryRun: false,
@@ -57,7 +57,7 @@ module.exports = {
             })
 
             if (commit.type === emojis.feat) {
-              commit.type = `Features test`
+              commit.type = `Features`
             } else if (commit.type === emojis.fix) {
               commit.type = `Bug Fixes`
             } else if (commit.type === emojis.revert || commit.revert) {
