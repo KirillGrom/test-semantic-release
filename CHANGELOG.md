@@ -1,3 +1,10 @@
+## [1.43.1](https://github.com/KirillGrom/test-semantic-release/compare/v1.43.0...v1.43.1) (2022-07-29)
+
+
+### Bug Fixes
+
+* BREAKING CHANGE anythink ([c4613e4](https://github.com/KirillGrom/test-semantic-release/commit/c4613e4cdfbee39c64f529ae33f883af793e2843))
+
 # [1.43.0](https://github.com/KirillGrom/test-semantic-release/compare/v1.42.0...v1.43.0) (2022-07-26)
 
 
